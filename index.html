@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+
+    <title>Space tourism website</title>
+  </head>
+  <body class="homepage-body">
+    <header class="nav-bar-header flex">
+      <div>
+        <img src="/images/shared/logo.svg" alt="logo" class="logo" />
+      </div>
+      <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+        <span class="sr-only" area-expanded="false">Menu</span>
+      </button>
+      <nav>
+        <ul
+          id="primary-navigation"
+          class="navigation-bar underline-indicators flex"
+          data-visibility="false"
+        >
+          <li class="active">
+            <a href="#" class="inline"><span>00</span> home</a>
+          </li>
+          <li>
+            <a href="/destination-moon.html"><span>01</span> destiation</a>
+          </li>
+          <li>
+            <a href="/crew-commander.html"><span>02</span> crew</a>
+          </li>
+          <li>
+            <a href="/technology.html"><span>03</span> technology</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="grid-container grid-container--home" style="max-width: 60rem">
+      <div class="homepage-title">
+        <h1>
+          So, you want to travel to
+          <span>Space</span>
+        </h1>
+        <p>
+          Let's face it; if you want to go to space, you might as well genuinely
+          go to outer space and not hover kind of on the edge of it. Well sit
+          back, and relax because we'll give you a truly out of this world
+          experience!
+        </p>
+      </div>
+
+      <div class="explore-section">
+        <a href="/destination-moon.html" class="large-button">EXPLORE</a>
+      </div>
+    </main>
+  </body>
+</html>
