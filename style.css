@@ -102,7 +102,7 @@ h7 {
   letter-spacing: 2.35px;
   color: var(--cream-accent-color);
 }
-img {
+picture {
   max-width: 100%;
   display: block;
 }
@@ -525,7 +525,7 @@ h2 {
   }
 }
 
-.grid-container--destination > img {
+.grid-container--destination > picture {
   grid-area: image;
   max-width: 60%;
 }
@@ -581,7 +581,7 @@ h2 {
       ". image content .";
     justify-items: start;
   }
-  .grid-container--destination > img {
+  .grid-container--destination > picture {
     max-width: 100%;
   }
   .destination-meta {
